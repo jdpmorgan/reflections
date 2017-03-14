@@ -1,0 +1,15 @@
+Creating a diff of two files helped me see which lines have bugs because I can easily see wgere two lines do not match up
+
+Having access to all previous versions of my file could make me a more efficient programmer by saving me from having retype old deprecated code if I find it is useful once more.
+
+Manual commits allow a commit frequency that maps better to the logical change in the code, but leaves you exposed to deficiencies in your personal practice and diligence, whereas automatic commits ensure no major gaps in coverage but come with no semantic content or logical structure.
+
+Q: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+A: Systems like Google Docs are more likely hadling files for which multiple file tracking is less common for most users, whereas code is inherently more interconnected.
+
+Q: How can you use the commands git log and git diff to view the history of files?
+A: Use git log to see a high level view of the change history with just the commit messages.  Use git diff to see the the actual code changes that were committed.
+
+Q: How might using version control make you more confident to make changes that could break something?
+A: If I break something I can go back and fix it
+

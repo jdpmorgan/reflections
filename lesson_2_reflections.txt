@@ -1,0 +1,5 @@
+Q: What happens when you initialize a repository? Why do you need to do it?
+A: git creates a .git folder to hold metadata for git operations.  It needs this to track file operations and history.
+
+Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
+A: The working directory cantains changes we may not commit. The staging area contains changes which we want to commit.  The repository contains changes we have committed.  The staging area helps bundle changes logically into a single commit.
